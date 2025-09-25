@@ -129,7 +129,7 @@ export default {
         }
 
         if(user_access.type.read || user_access.type.update || user_access.type.create || user_access.type.delete){
-            settingSubmenus.push({'name': 'Types', 'route': 'types', 'url': 'settings/types', 'icon': 'types'})
+            settingSubmenus.push({'name': 'Project Types', 'route': 'types', 'url': 'settings/types', 'icon': 'types'})
         }
 
         if(user_access.language.read || user_access.language.update || user_access.language.create || user_access.language.delete){

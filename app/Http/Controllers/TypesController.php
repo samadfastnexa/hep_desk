@@ -17,7 +17,7 @@ class TypesController extends Controller
 
     public function index(){
         return Inertia::render('Types/Index', [
-            'title' => 'Ticket Types',
+            'title' => 'Project Types',
             'filters' => Request::all(['search']),
             'types' => Type::orderBy('name')
                 ->filter(Request::all(['search']))
@@ -35,7 +35,7 @@ class TypesController extends Controller
     public function create()
     {
         return Inertia::render('Types/Create',[
-            'title' => 'Create a new type',
+            'title' => 'Create a new project type',
         ]);
     }
 
