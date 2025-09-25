@@ -1,0 +1,126 @@
+# Laravel & PHP
+/vendor/
+/node_modules/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/public/*
+!/storage/app/public/.gitkeep
+/storage/framework/cache/data/*
+!/storage/framework/cache/data/.gitkeep
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitkeep
+/storage/framework/testing/*
+!/storage/framework/testing/.gitkeep
+/storage/framework/views/*
+!/storage/framework/views/.gitkeep
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/debugbar/
+/bootstrap/cache/*
+!/bootstrap/cache/.gitkeep
+
+# Environment files
+.env
+.env.backup
+.env.production
+.env.local
+.env.*.local
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Build & Compilation
+/public/build/
+/public/css/app.css
+/public/js/app.js
+/public/js/ssr.js
+/public/mix-manifest.json
+/public/hot
+mix-manifest.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.npm
+.yarn-integrity
+
+# Composer
+composer.phar
+composer.lock
+
+# PHPUnit
+.phpunit.result.cache
+/coverage/
+/phpunit.xml
+
+# Laravel specific
+/storage/installed
+/storage/purify/
+/storage/app/files/
+/storage/app/users/
+/storage/dotenv-editor/
+
+# Application specific files
+/public/files/
+/public/storage/
+/HelpDesk.zip
+/HelpDesk/
+
+# Backup files
+*.bak
+*.backup
+/database/backup/
+
+# Logs
+*.log
+/storage/logs/
+/storage/debugbar/
+
+# Cache
+/bootstrap/cache/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package managers
+package-lock.json
+yarn.lock
+
+# Build tools
+webpack-stats.json
+.eslintcache
+
+# Server configuration (keep examples)
+.htaccess.backup
+web.config.backup
+
+# Installation files
+/public/installer/
+
+# User uploads
+/public/files/kb/
+/public/files/posts/
+/public/files/users/

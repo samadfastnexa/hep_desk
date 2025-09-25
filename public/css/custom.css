@@ -1,0 +1,16 @@
+.font-bold {
+    font-weight: 700;
+}
+
+.btn-indigo , .menu-item.active .menu-link, .comment-box .user_icon, .comment-box .bg-blue{
+    background-color: #e25f07 !important;
+}
+
+
+.bg-gray-300, .menu-item.hover .menu-link.have-sub-menu{
+    background-color: #FFC7A7 !important;
+}
+
+.menu-item.hover .menu-link.have-sub-menu .menu__name, .menu-item.hover .menu-link.have-sub-menu .menu__icon{
+    color: #ffffff !important;
+}
