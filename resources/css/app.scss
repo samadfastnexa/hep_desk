@@ -1,0 +1,48 @@
+/* All @use rules must be at the top */
+@use 'tailwindcss/base';
+@use 'reset';
+@use 'browser_default';
+@use "variables";
+@use 'tailwindcss/components';
+@use 'buttons';
+@use 'form';
+@use 'font';
+@use 'tailwindcss/utilities';
+@use 'tailwindcss/screens';
+@use "switch";
+@use "menu";
+@use "tables";
+@use "chat";
+@use "dashboard";
+@use 'custom';
+@use 'dark_screen';
+@use 'mediaQuery';
+@use "color_scheme.scss";
+
+/* Reset */
+
+/* Components */
+
+/** Typography */
+//@use "";
+
+/* Utilities */
+
+/** vendors */
+// @use "vendors/ckeditor.css";
+@import "./vendors/ckeditor.css";
+
+/** Landing Site */
+// @use "landing_custom.scss";
+@import "./landing_custom.scss";
+//@use 'landing/_buttons';
+//@use 'landing/_choices';
+//@use 'landing/_contact';
+//@use 'landing/_footer';
+//@use 'landing/_general';
+//@use 'landing/_helper';
+//@use 'landing/_hero';
+//@use 'landing/_portfolio';
+//@use 'landing/_topnav';
+
+/* Modules */

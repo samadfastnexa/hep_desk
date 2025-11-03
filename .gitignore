@@ -1,0 +1,43 @@
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+storage/dotenv-editor/backups/
+.env
+.env.*
+.env.*.local
+.phpunit.result.cache
+
+# Dotenv editor backups
+storage/dotenv-editor/backups/
+
+# Vite / Laravel Mix
+/public/hot
+/public/build
+
+# Logs
+storage/logs/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Cache
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+storage/framework/testing/
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Tailwind / Sass / CSS builds
+*.css.map
+*.js.map
